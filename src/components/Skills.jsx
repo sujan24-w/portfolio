@@ -18,7 +18,7 @@ const Skills = () => {
             viewport:{once:false, amount:0.2},
         }}} 
         id="skills" >
-    <div   className='  w-full  mx-0 mt-8  px-6'>
+    <div   className=' scroll-p-20  w-full  mx-0 mt-8  px-6'>
         <h1 className="text-4xl mb:text-6xl text-center  text-white font-extrabold mb-3">My {" "}
         <span className="text-blue-500">Skills</span></h1> 
           <p className="  width-full mx-auto  text  text-center md:text-lg  text-gray-400 mb-12">Technologies i  work with </p>

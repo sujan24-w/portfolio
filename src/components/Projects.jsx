@@ -21,7 +21,7 @@ const Projects = () => {
             viewport:{once:false, amount:0.2},
         }}} 
         id="projects" >
-     <div   className=' w-full  mx-0 mt-8  px-6'>
+     <div   className='scroll-mt-20 w-full  mx-0 mt-8  px-6'>
         <h1 className="text-4xl mb:text-6xl text-center  text-white font-extrabold mb-3">My {" "}
         <span className="text-blue-500">Projects</span></h1> 
           <p className="  width-full mx-auto  text  text-center md:text-lg  text-gray-400 mb-12">A selection of academic and personal projects built with the MERN

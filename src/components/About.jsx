@@ -50,7 +50,7 @@ const About = () => {
           }}
           className=" md:w-1/2 w-full  "
         >
-          <div className="rounded-2xl p-8 w-full  ">
+          <div className="scroll-mt-20 rounded-2xl p-8 w-full  ">
             <h2 className="text-2xl mb:text-4xl font-semibold text-gray-200 mb-3">
               My Journey
             </h2>
