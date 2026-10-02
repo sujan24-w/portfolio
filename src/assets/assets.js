@@ -71,45 +71,8 @@ export const skills = [
 
 
 export const projects = [
-  {
-    id: 'e-garage',
-    name: 'E-Garage',
-    tagline: 'Two-Wheeler Garage Service Management System',
-    description:
-      'A multi-role two-wheeler garage service management platform designed for customers, garage owners, and mechanics.',
-    technologies: [
-      'React',
-      'Node.js',
-      'Express.js',
-      'MongoDB',
-      'Mongoose',
-      'JWT',
-      'Socket.IO',
-      'Leaflet',
-    ],
-    contributions: [
-      'Developed backend routes and database models for garage and service-related data',
-      'Built frontend garage listing cards',
-      'Added filtering and pagination functionality',
-      'Contributed to the multi-role service platform',
-    ],
-  },
-  {
-    id: 'bmcit',
-    name: 'BMCIT College Website',
-    tagline: 'Common College Frontend Web Application',
-    description:
-      'A responsive college frontend application created as an academic project, featuring route-based navigation and an interactive content slider.',
-    technologies: ['React.js', 'Tailwind CSS', 'React Router'],
-    features: [
-      'Route-based navigation between website sections and pages',
-      'Interactive content slider',
-      'Responsive and straightforward interface',
-      'Common college website content',
-    ],
-    demoUrl: 'https://sujan24-w.github.io/bmcit-sp/',
-    
-  },
+ 
+  
   {
     id: 'mern-auth',
     name: 'MERN Authentication System',
@@ -138,9 +101,45 @@ export const projects = [
     ],
     demoUrl: 'https://auth-mern-beryl.vercel.app',
     code:"https://github.com/sujan24-w/auth-mern",
-    note:{
-      note1:"Some authentication features may not work in the deployed demo due to production email/cookie configuration.",
-      note2:"The complete authentication system has been tested successfully in the local environment.",
-    }
+   
+  },
+  {
+    id: 'bmcit',
+    name: 'BMCIT College Website',
+    tagline: 'Common College Frontend Web Application',
+    description:
+      'A responsive college frontend application created as an academic project, featuring route-based navigation and an interactive content slider.',
+    technologies: ['React.js', 'Tailwind CSS', 'React Router'],
+    features: [
+      'Route-based navigation between website sections and pages',
+      'Interactive content slider',
+      'Responsive and straightforward interface',
+      'Common college website content',
+    ],
+    demoUrl: 'https://sujan24-w.github.io/bmcit-sp/',
+    
+  },
+   {
+    id: 'e-garage',
+    name: 'E-Garage',
+    tagline: 'Two-Wheeler Garage Service Management System',
+    description:
+      'A multi-role two-wheeler garage service management platform designed for customers, garage owners, and mechanics.',
+    technologies: [
+      'React',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Mongoose',
+      'JWT',
+      'Socket.IO',
+      'Leaflet',
+    ],
+    contributions: [
+      'Developed backend routes and database models for garage and service-related data',
+      'Built frontend garage listing cards',
+      'Added filtering and pagination functionality',
+      'Contributed to the multi-role service platform',
+    ],
   },
 ];
