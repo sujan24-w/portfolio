@@ -74,7 +74,7 @@ export const projects = [
 {
     id: 'event-seat-booking-system',
     name: 'Event Seat Booking & Management System',
-    tagline: 'Full-Stack Event Ticketing & Seat Reservation Platform',
+    tagline: 'Full-Stack Event  Seat Reservation Platform',
     description:
       'A full-stack event administration and live seat booking platform featuring real-time seat availability tracking, secure ticket reservations, and comprehensive admin dashboard controls.',
     technologies: [
