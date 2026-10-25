@@ -71,7 +71,35 @@ export const skills = [
 
 
 export const projects = [
- 
+{
+    id: 'event-seat-booking-system',
+    name: 'Event Seat Booking & Management System',
+    tagline: 'Full-Stack Event Ticketing & Seat Reservation Platform',
+    description:
+      'A full-stack event administration and live seat booking platform featuring real-time seat availability tracking, secure ticket reservations, and comprehensive admin dashboard controls.',
+    technologies: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'Node.js',
+      'Express.js',
+      'PostgreSQL',
+      'Tailwind CSS',
+      'Cloudinary',
+      'Axios',
+    ],
+    features: [
+      'Real-time seat availability tracking and capacity limits',
+      'Secure ticket reservation workflow preventing seat over-allocation',
+      'Role-based event administration (Create, Update, Cancel, and Soft/Hard Delete events)',
+      'Database transaction safety with automatic rollbacks for safe concurrency handling',
+      'Cloudinary integration for event poster uploads and image previews',
+      'Admin analytics dashboard monitoring active bookings, user counts,cancelled events  and event statuses',
+      'Express Rate Limit in Login Registration',
+    ],
+    demoUrl: 'https://my-eventbooking.vercel.app/',
+    code: 'https://github.com/sujan24-w/updated-EventBook',
+  },
   
   {
     id: 'mern-auth',
